@@ -2,4 +2,4 @@ flask
 flask-discord
 pyqt5
 requests
-sqlite3
+
