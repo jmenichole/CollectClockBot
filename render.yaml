@@ -1,6 +1,6 @@
 # Exported from Render on 2025-03-20T21:09:58Z
 services:
-- type: web
+- type: worker
   name: CollectClockBot
   runtime: python
   repo: https://github.com/jmenichole/CollectClockBot
