@@ -1,0 +1,14 @@
+# Exported from Render on 2025-03-20T21:09:58Z
+services:
+- type: web
+  name: CollectClockBot
+  runtime: python
+  repo: https://github.com/jmenichole/CollectClockBot
+  plan: free
+  envVars:
+  - key: DISCORD_BOT_TOKEN
+    sync: false
+  region: oregon
+  buildCommand: pip install -r requirements.txt
+  startCommand: python3 main.py
+version: "1"
